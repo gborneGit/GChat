@@ -1,0 +1,13 @@
+main: fr.aang.gchat.Main
+name: GChat
+version: 1.0
+api-version: 1.19
+author: [ Aang ]
+depend: [ Multiverse-Core ]
+permissions:
+  gchat.use:
+    description: Filtre les commandes
+    default: op
+commands:
+  cmd:
+    description: Execute une commande en OP
